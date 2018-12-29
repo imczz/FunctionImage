@@ -1,12 +1,12 @@
 package Frames;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
-import java.awt.Label;
 import java.awt.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
@@ -31,9 +31,9 @@ public class functioncontrol extends JFrame{
 	private JButton exit=new JButton(" 退            出 ");
 	private JTextArea fname=new JTextArea(1,20);
 	private JTextArea exp=new JTextArea(1,20);
-	private Label label1= new Label("函数名");
-	private Label label2= new Label("表达式");
-	private Label label3= new Label("结果");
+	private JLabel label1= new JLabel("函数名");
+	private JLabel label2= new JLabel("表达式");
+	private JLabel label3= new JLabel("结果");
 	private List funclist= new List();
 	StringBuffer tmpbuf;
 	
